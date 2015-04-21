@@ -1,0 +1,25 @@
+{
+  "name": "react-webpack-yum",
+  "version": "0.0.1",
+  "description": "React + Webpack === yum!",
+  "main": "index.html",
+  "scripts": {
+    "dev": "webpack-dev-server -d --hot --progress --colors --content-base src",
+    "dev-fast": "webpack-dev-server --devtool eval --hot --progress --colors --content-base src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Per Nilsson <per.nilsson@formidablelabs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "0.13.2"
+  },
+  "devDependencies": {
+    "css-loader": "0.11.0",
+    "jsx-loader": "0.13.1",
+    "node-sass": "2.1.1",
+    "sass-loader": "0.6.0",
+    "style-loader": "0.11.0",
+    "webpack": "1.8.8",
+    "webpack-dev-server": "1.8.2"
+  }
+}
