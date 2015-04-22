@@ -23,7 +23,8 @@ in the future, rather than landing this starter project in `node_modules/react-q
 
         open http://localhost:8080
 
-By default, the dev server uses source maps, so you can debug source files in your favorite browser dev tool. If you need this, use the `npm run dev-fast` script, which is faster and only maps errors to the appropriate source file and line.
+
+By default, the dev server uses source maps, so you can debug source files in your favorite browser dev tool. If you don't need debugging capabilities, use the `npm run dev-fast` script, which is faster and still maps errors to the appropriate source file and line.
 
 Resources
 ---------
